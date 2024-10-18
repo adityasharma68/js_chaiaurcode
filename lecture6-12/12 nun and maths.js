@@ -23,6 +23,31 @@ const hundreds = 1000000;
 
 //+++++++++++++++++++++++++++MATHS+++++++++++++++++++++++++++++++++++
 
-console.log(Math);
-console.log(Math.abs(-4)); // it is used to convert the negative value to the positive value.
-console.log(Math.round(3.6)); // ".round" is use to round of the value and default set is if value<.5 so is take
+//console.log(Math);
+
+//console.log(Math.abs(-4)); // it is used to convert the negative value to the positive value.
+
+//console.log(Math.round(3.6)); // ".round" is use to round of the value and default set is if value<.5 so is take smaller value and if value>.5 it take bigger value.
+
+//console.log(Math.ceil(4.5)); //it is use for when the value greater even it greater value 0.1 it take 5 as show in example.
+
+//console.log(Math.floor(4.5)); // it is use for when the value is greater even it greater 0.1-0.5, it lower value, take 4 as shown in example.
+
+//console.log(Math.sqrt(16)); // is use for find the Sqare root of any Value.
+
+//console.log(Math.min(1, 5, 9, 6, 4)); //is is used to find the smallest number in the string.
+
+//console.log(Math.max(1, 5, 9, 6, 4)); //is is used to find the smallest number in the string.
+
+console.log( Math.random());
+console.log(( Math.random()*10)+1);
+
+
+//IF WE GIVES THE MINIMUM AND MAXIMUM NUMBER THEN WHAT WE DO...?
+
+const min = 10
+const max = 20
+
+console.log((Math.random() * (max-min)+1) + min); // THIS IS VERY IMP LINE BCZ OG THER IS FORMULA USED FOR MANY CODES SO TRY TO LEARN THIS CODE.
+
+//Complete
