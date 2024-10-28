@@ -1,4 +1,4 @@
-//Here we discuss about how does Js excecute code..? in this lecture imp ques for INTERVIEW.
+//Here we discuss about how does Js execute code..? in this lecture imp ques for INTERVIEW.
 
 //JAVASCRIPT EXCECUTION CONTEXT
 // {} > Global Excecution Context.
