@@ -8,7 +8,7 @@
 
 // **Ques: Why we used IIFE expression..?
 // **Ans:this help to immediately excecution but, this is not a good answer for interview point.
-// **Another good answer:it is used bcz it problem in globle scope pollution. it help to remove the globle pollution of variable, declaration.
+// **Another good answer:it is used bcz it problem in global scope pollution. it help to remove the global pollution of variable, declaration.
 
 ((name) => {
   //here we define the name variable

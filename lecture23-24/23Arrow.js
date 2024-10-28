@@ -16,7 +16,7 @@ const user = {
 
 // console.log(this); //when we write this after the code, from this line we're in the node environment and it refer the empty object, then it gives the output empty"{}"
 
-//*IMPORTANT:>> the most globle object in the browser on runtime is WINDOW{}.
+//*IMPORTANT:>> the most global object in the browser on runtime is WINDOW{}.
 
 // function chai() {
 //   let username = "Aditya";
