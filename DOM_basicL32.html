@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>DOM Learning</title>
+    <style>
+      .bg-color {
+        background-color: black;
+        color: aliceblue;
+      }
+
+      .addT{
+        display: none;
+      }
+    </style>
+  </head>
+  <body class="bg-color">
+    <div>
+      <h1 id="title" class="heading">DOM Learning on Chai or Code <span class="addT">TEXT ADD</span> </h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, ipsum.
+      </p>
+
+      <h2>HEllO ADI</h2>
+      <h2>HEllO TONY</h2>
+      <h2>HEllO BRUCE</h2>
+
+      <input type="password" name="" id="">
+
+      <ul>
+        <li class="list-item" >one</li>
+        <li class="list-item">two</li>
+        <li class="list-item">three</li>
+        <li class="list-item">four</li>
+      </ul>
+
+    </div>
+  </body>
+</html>
+
+
+
+<!-- There are some Manipulation DOM method
+
+1. document.getElementById('title')  >>  this is use to find the tags and what is in the tags.
+2. document.getElementById('title').id/.class  >>  it help to find id and class using attribute in tags
+3. document.getElementById('title').getAttribute('id')  >>  it help to cheak the tag_name(id or class name) in the code
+4. document.getElementById('title').setAttribute('class','test')  >>  it help to set the tag_name(id/class), the changable name are show in the console of browser. this method always override the code.
+5. document.getElementById('title')
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+#HOW TO CHANGE THE CSS USING STYLE FROM THE CONSOLE,
+
+STEP1 > Stored the value 
+const title = document.getElementById('title')
+
+STEP2 > Now we using the .style with title"Stored value"
+title.style.color = 'red', the instant change the color from the console
+
+STEP3 > Now we add the padding using style
+title.style.padding = '15px',  There we use the many style tag and atrribute using this methode
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+#HOW TO CUSTOMISE AND ADD THE  CONTENT USING CONSOLE FROM THE BROWSER,
+
+There are many method to cheak the content in the stored value,
+
+1. title.innerText  >>  the ".innerText" is used to change the only visual content.
+2. title.textContent  >>  the ".innerContent" is used to change the only visual content and also chnage hidden content which is hidden by any kind of css property. ".textContent"
+3. title.innerHTML  >>  "innerHTMl" is show the all code written in html, like in the example we add tha span tag in the heading show ".innerHTML" is show thw all code written in the heading. it can help to whole code in html also change the css properties using this tag
+
+#NOW WE SEE HOW TO SELECT THE TAG,
+There are many types of methode to select the tag from the console. Here some method,
+1. document.getElementByClassName('class_name')
+2. 5. document.getElementById('id_name')
+
+#QuerySelecter using in Realworld Code,
+  1. document.querySelector('tag/attribute_name')  >>  it help select any type of tag and attribute from the code if write '.querySelector' in the console to find the "h1 or any type of tag" then it gives the single tag and attributes from the code which is written firstly in the code.
+  2. document.querySelectorAll('tag/attribute_name')  >>  it help select any type of tag and attribute from the code if write '.querySelector' in the console to find the "h1 or any type of tag" then it gives the every single tag and attributes from the code, which is written in the code.
+  3. if we select the 'id and class' using the ".querySelector" then we use >>  document.querySelector('#id_name')  and  document.querySelector('.class_name')
+  4. if we select the 'element, attributes from any element/tag' then we use  >>  document.querySelector(element)   document.querySelector(element[attributes])
+  5. there we select the element like we use in the CSS Selecter
+  6. Now, we study about how to select the tag from many types of tag anf then change the code.
+      STEP1. firstly we stored the value in the variable.
+      STEP2. then we use the ".querySelector" to choose the element i.e> { .querySelector('attribute of element') }
+      STEP3. Now, when this is select the element/attribute the we change the property of this attributes using the CSS  property.
+      NOTE:> here we study about, How to select the individual selecter.
+  7. if change the the content in stored variable So we use,
+      STEP1. firstly stored value.
+      STEP2. write >>  variable_name.innerText
+      STEP3. variable_name.innerText = 'write the value you'll change'
+  8. Here we use #querySelectorAll('here we write any tag/attribute/element') 
+      >> Change the element colour and text
+      >> if change the element from many attribute so firstly we select the element using ".querySelectorAll"
+  9. How to change the element from many attribute:,
+      STEP1. Select the element and then Stored in the variable.
+      STEP2. Then, we change the element by select the variable like we choose in the arraye
+                i.e>> varible_name[elementLenthNo].style.color = 'color_name'
+  NOTE:>>  in the ".querySelectorAll" we tell the element no to change its property or content.
+  10. here we use also "forEach" loop we study about it in previous lecture.
+  11. #How to change the NodeList into simple array
+      STEP1. firstly Stored the element in the variable.
+      STEP2. write Array.from(variable_name)
+      STEP3. now NodeList beahave like an array and all the properties of the array we're used here.
+      NOTE:>> i.e     myConvertedArray.forEach(function (li) {
+                          li.style.color = 'red'
+                        })
+
+
+-->
+
