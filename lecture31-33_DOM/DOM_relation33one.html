@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM with Chai Or Code</title>
+  </head>
+  <body style="background-color: grey; color: aliceblue; font-size: 10px">
+    <div class="parent">
+              
+      <!-- this is simple comment to cheak the NODE list -->
+
+      <div class="day">Monday</div>
+      <div class="day">Tuesday</div>
+      <div class="day">Wednesday</div>
+      <div class="day">Thursday</div>
+    </div> 
+
+    <script>
+      const parentClass = document.querySelector(".parent");
+      //   console.log(parentClass);
+      //   console.log(parentClass.children);
+      //   console.log(parentClass.children[1]);
+      //   console.log(parentClass.children[0].innerHTML);
+
+      for (let i = 0; i < parentClass.children.length; i++) {
+        // console.log(parentClass.children [i].innerHTML);
+      }
+      parentClass.children[1].style.color = "red";
+
+      // console.log(parentClass.firstElementChild); //it help to select the first element from the parent class.
+      // console.log(parentClass.lastElementChild); //it help to select the last element from the parent class.
+
+      const dayOne = document.querySelector(".day");
+    //   console.log(dayOne); //it help to select the the first element of class. it's default value is first element 
+    //   console.log(dayOne.parentElement ); //it help to select the parent class using the child element
+    //   console.log(dayOne.nextElementSibling); //it help to select the next element from the selectes element which is known as sibling element.
+
+      console.log("NODES: ",parentClass.childNodes); //it help to cheak the every single NODES
+
+    </script>
+  </body>
+</html>
