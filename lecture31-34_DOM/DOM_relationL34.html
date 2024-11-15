@@ -30,14 +30,14 @@
 
     //Edit
     const SecondLang = document.querySelector("li:nth-child(2)");
-    // SecondLang.innerHTML = "Mojo"
+    SecondLang.innerHTML = "Mojo"
     const newLi = document.createElement("li");
     newLi.textContent = "Mojo";
     SecondLang.replaceWith(newLi);
 
     //Edit
     const firstLang = document.querySelector("li:first-child");
-    firstLang.outerHTMl = "<li>TypeScript</li>";
+    firstLang.outerHTMl = '<li>TypeScript</li>'
 
     //remove
     const lastLang = document.querySelector("li:last-child");
