@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="bmi.png" type="image/x-icon">
+  </head>
+  <body class="body">
+    <header>
+      <nav class="navBar">
+        <h1 class="heading">BMI Calculator</h1>
+        <ul class="navBarElement">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#setting">Settings</a></li>
+          <li><a href="#contactUs">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="mainData">
+      <fieldset class="fieldset">
+        <h1 class="enterDetail">Enter Your Details</h1>
+
+        <form id="bmiForm">
+          <div class="mainDataElement">
+            <label for="height">Height in CM:</label>
+            <input
+              class="formItem"
+              type="number"
+              id="height"
+              placeholder="e.g., 170"
+       
+            />
+          </div>
+          <div class="mainDataElement">
+            <label for="weight">Weight in KG:</label>
+            <input
+              class="formItem"
+              type="number"
+              id="weight"
+              placeholder="e.g., 70"
+         
+            />
+          </div>
+          <button type="submit" class="button">Calculate BMI</button>
+        </form>
+
+        <!-- <table>
+          <h2 class="enterDetail">Enter Your Detail</h2>
+          <tbody>
+            <li class="mainDataElement">
+              <label for="height" id="height"> Height in CM: </label>
+              <input class="formItem" type="text" />
+            </li>
+            <br />
+            <li class="mainDataElement">
+              <label for="weight" id="weight"> Weight in KG: </label>
+              <input class="formItem" type="text" />
+            </li> -->
+
+        <div id="bmiResult" class="result"></div>
+
+        <section class="UserGuided">
+          <h4>BMI Weight Guide</h4>
+          <p style="color: blue;">Under Weight = Less than 18.6</p>
+          <p style="color: green;">Normal Range = 18.6 and 24.9</p>
+          <p style="color: red;">Overweight = Greater than 24.9</p>
+        </section>
+      </fieldset>
+    </main>
+
+    <footer>
+      <p>© 2024 MyWebSite | All Rights Reserved | @Aditya Sharma</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

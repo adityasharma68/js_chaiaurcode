@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.body {
+  font-family: Arial, sans-serif;
+  background-color: beige;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.navBar {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 15px 20px;
+  background-color: bisque;
+}
+
+.heading {
+  font-size: 3rem;
+  color: #333;
+}
+
+.navBarElement {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  gap: 15px;
+}
+
+.navBarElement li {
+  font-size: 1.2rem;
+}
+
+.navBarElement a {
+  text-decoration: none;
+  color: #444;
+  transition: color 0.3s ease;
+}
+
+.navBarElement a:hover {
+  color: #e67e22;
+}
+
+.fieldset {
+  width: 80%;
+  max-width: 400px;
+  height: 100%;
+  margin: 2rem auto;
+  padding: 2rem;
+  border: 2px solid #444;
+  border-radius: 10px;
+  background: rgb(246, 246, 194);
+  box-shadow: 2px 2px 25px black;
+}
+
+.enterDetail {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  font-size: 2.9rem;
+}
+
+.mainDataElement {
+  margin: 1rem 2em;
+  display: flex;
+  /* text-align: center; */
+  font-size: 20px;
+}
+
+.formItem {
+  width: 50%;
+  margin-left: 0.4rem;
+  padding: 0.1rem;
+  border: 1px solid #969696;
+  border-radius: 5px;
+}
+
+.button {
+  margin: auto;
+  display: block;
+  width: 50%;
+  margin-top: 2rem;
+  padding: 0.8rem;
+  background-color: #444;
+  color: #fff;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.button:hover {
+  background-color: #e67e22;
+}
+
+.UserGuided {
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 0.9rem;
+}
+.UserGuided h4 {
+  margin-bottom: 0.5rem;
+  font-size: 2rem;
+}
+.UserGuided.p {
+  margin: 10px;
+  font-size: 0.5rem;
+}
+
+.result {
+  margin-top: 1rem;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #333;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #444;
+  color: #fff;
+  font-size: 0.9rem;
+}
