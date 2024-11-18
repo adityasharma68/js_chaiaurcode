@@ -3,7 +3,7 @@ const value = 100;
 //console.log(typeof(value));
 
 const num_value = new Number(69.1234); //Why we use "new" in this line...? & if i remove "new" then the number object not working. this is use for making a number object
-
+ 
 //console.log(num_value);
 // console.log(typeof(num_value));
 

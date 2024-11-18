@@ -4,7 +4,7 @@
 //console.log(myDate); // it gives the in object whic we can't understand the output here.
 
 //console.log(myDate.toString()); // is gives better output in string 'Fri Oct 18 2024 19:07:53 GMT+0530 (India Standard Time)'
-
+ 
 //console.log(myDate.toDateString()); // its gives the simple date without the times.
 //console.log(myDate.toISOString()); // don't know ....?
 //console.log(myDate.toJSON()); // don't know ....?

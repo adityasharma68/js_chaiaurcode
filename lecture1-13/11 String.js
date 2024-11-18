@@ -4,7 +4,7 @@ const project = 5;
 // console.log(`My name is ${name} and the project made by me ${project}`);
 
 //another way to make a string and this method is good way in coding
-
+ 
 const MyDevice = new String("iPhone-16-pro-max");
 
 // console.log(MyDevice[5]);  // to cheak the in which string has a number.

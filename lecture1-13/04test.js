@@ -1,7 +1,7 @@
 const accountId = 22014168005;
 let accountEmail = "adi01@gmail.com";
 var accountPassword = "adi@12345";
-
+ 
 accountcity = "Gangoh";
 
 // accountId = 22014168004 //this value can't be change bcz Assignment to constant variable

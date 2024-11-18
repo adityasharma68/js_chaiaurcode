@@ -1,6 +1,6 @@
 // let gamescore = 98;
 // let gameplayer = "aditya";
-
+ 
 // console.log(typeof gamescore);
 // console.log(typeof gameplayer);
 
