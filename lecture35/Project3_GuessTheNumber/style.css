@@ -1,0 +1,136 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.body {
+  background-color: #005473;
+  background-image: linear-gradient(0deg, #005473 0%, #08a95f 100%);
+  font-family: serif;
+  height: 100vh;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.navBar {
+  display: flex;
+  justify-content: space-evenly;
+  box-shadow: 1px 2px 10px black;
+  padding: 1rem;
+}
+
+.navBarElement {
+
+  display: flex;
+  list-style: none;
+  gap: 10px;
+  font-size: 1.5rem;
+  padding: 1rem;
+}
+.navBarElement a {
+  color: black;
+  text-decoration: none;
+}
+
+.navHeading {
+  font-size: 3rem;
+}
+
+.UserGuid {
+  text-align: center;
+  font-size: x-large;
+  padding: 2rem;
+}
+
+.heading {
+  text-align: center;
+  font-size: 5rem;
+}
+
+.inputData {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+#guessField {
+  background-color: #1287b3;
+  background-image: linear-gradient(0deg, #1287b3 0%, #09e680 100%);
+  box-shadow: 2px 5px 10px black;
+  height: 5rem;
+  width: 30rem;
+  border-radius: 10px;
+  font-size: 3rem;
+  border: 2px solid black;
+  margin: 5px;
+  text-align: center;
+}
+
+#submit {
+  color: #444;
+  margin-top: 30px;
+  height: 3rem;
+  width: 15rem;
+  font-size: larger;
+  border-radius: 2px;
+  border: 1px solid black;
+}
+
+.guessSubmit {
+  background-image: linear-gradient(
+    to right,
+    #70e1f5 0%,
+    #ffd194 51%,
+    #70e1f5 100%
+  );
+}
+.guessSubmit {
+  /* margin: 10px; */
+  /* padding: 15px 45px; */
+  text-align: center;
+  /* text-transform: uppercase; */
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: rgb(34, 101, 160);
+  box-shadow: 0 0 20px #035641;
+  border-radius: 10px;
+  display: block;
+}
+
+.guessSubmit:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #323d90;
+  text-decoration: none;
+}
+
+.resultParas {
+  text-align: center;
+  font-size: larger;
+  padding: 2rem;
+}
+
+.lowOrHi {
+  margin: 10px;
+}
+
+#newGameButton{
+  color: rgb(0, 13, 255);
+  background-color: #2082b791;
+  width: 15rem;
+  font-size: x-large;
+  height: 3rem;
+  font-weight: bolder;
+  margin: 3rem;
+}
+
+footer {
+  background-color: #073e52;
+  text-align: center;
+  padding: 10px;
+  /* background-color: #444; */
+  color: #fff;
+  font-size: 0.9rem;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guess the Number</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon" />
+  </head>
+  <body class="body">
+    <header class="navBar">
+      <h1 class="navHeading">Number Guessing Game</h1>
+      <ul class="navBarElement">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#setting">Setting</a></li>
+        <li><a href="#contactus">Contact Us</a></li>
+      </ul>
+    </header>
+
+    <main>
+      <div class="mainForm">
+        <section class="UserGuid">
+          <p>Try and guess a random number between 1 and 100.</p>
+          <p>You have 10 attempt to Guess the right number.</p>
+        </section>
+
+        <section>
+          <h2 class="heading">Guess the Number</h2>
+        </section>
+
+        <section class="inputData">
+          <input id="guessField" type="text" />
+          <input
+            type="submit"
+            id="submit"
+            class="guessSubmit"
+            value="Submit Guess Number"
+          />
+        </section>
+      </div>
+
+      <div class="resultParas">
+        <p>Previous Guess : <span class="guesses"></span></p>
+        <p>Guess Remaining: <span class="lastResult">10</span></p>
+        <p class="lowOrHi"></p>
+      </div>
+    </main>
+
+    <footer>
+      <p>© 2024 MyWebSite | All Rights Reserved | @Aditya Sharma</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
