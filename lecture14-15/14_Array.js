@@ -5,7 +5,7 @@
 
 const myArr = [0, 1, 2, 3, 4, 5];
 //console.log(myArr[5]);
-
+ 
 // const Marvel = ["Iron Man","Thor","Capt. America","Hulk"]
 //console.log(Marvel);
 

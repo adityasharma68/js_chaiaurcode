@@ -6,7 +6,7 @@ const DC_heroes = ["Batman", "Superman", "Flash"];
 
 // console.log(MCU_heroes);
 // console.log(MCU_heroes[3][2]);
-
+ 
 // const allHero = MCU_heroes.concat(DC_heroes) //".concat" is used to merge the element of two array properly.
 
 // console.log(allHero);
