@@ -5,6 +5,7 @@ function CalculateCartPrice(...num1) {
   return num1;
 }
 
+
 // console.log(CalculateCartPrice(200, 410, 596));
 
 const user = {
