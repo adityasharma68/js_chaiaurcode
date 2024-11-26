@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>API Request</title>
+  </head>
+  <body>
+    <p>0 UNSENT Client has been created. open() not called yet.</p>
+    <p>1 OPENED open() has been called.</p>
+    <p>
+      2 HEADERS_RECEIVED send() has been called, and headers and status are
+      available.
+    </p>
+    <p>3 LOADING Downloading; responseText holds partial data.</p>
+    <p>4 DONE The operation is complete.</p>
+
+    <h1>Assignment By Hitesh</h1>
+    <div id="card">
+        <p>Pending.........</p>
+    </div>
+  </body>
+  <script>
+    const requestUrl = "https://api.github.com/users/adityasharma68";
+
+    const xhrRequest = new XMLHttpRequest(); //it also a method, it's help to send and recieve the request.
+
+    xhrRequest.open("GET", requestUrl);
+    xhrRequest.onreadystatechange = function () {
+      console.log(xhrRequest.readyState);
+
+      if (xhrRequest.readyState === 4) {
+        const data = JSON.parse(this.responseText); //here we convert this string into object.
+        console.log(typeof data);
+        console.log(data.name); // when we create the object, Now we can access the data.
+        // console.log(data); //this.responseText is used to to retrieve and display the server's response only when the request is fully complete.{in simple humne jo api di thi usko access karne k liye}
+      }
+    };
+    xhrRequest.send();
+  </script>
+</html>
