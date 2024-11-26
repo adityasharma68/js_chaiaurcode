@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Unlimited Color Changer</title>
+  </head>
+  <style>
+    body {
+      background-color: aquamarine;
+      text-align: center;
+    }
+
+    #heading {
+      font-size: 5rem;
+    }
+
+    .button {
+      width: 10rem;
+      height: 3rem;
+      font-size: 2rem;
+      margin: 2rem;
+    }
+  </style>
+  <body>
+    <h1 id="heading">Start Color Change the Background color Every Second</h1>
+
+    <button class="button" id="start">Start</button>
+    <button class="button" id="stop">Stop</button>
+  </body>
+
+  <script>
+    //genrate random Color
+
+    const randomColor = function () {
+      const hex = "0123456789ABCDEF";
+      let color = "#";
+      for (let i = 0; i < 6; i++) {
+        color += hex[Math.floor(Math.random() * 16)];
+      }
+      return color;
+    };
+
+    let interValID;
+
+    const startChangeColor = function () {
+      interValID = setInterval(chaneBgColor, 1000);
+
+      function chaneBgColor() {
+        document.body.style.backgroundColor = randomColor();
+      }
+    };
+
+    const stopChangeColor = function () {
+        clearInterval(interValID);
+        interValID = null; // it is good practice to code bcz there is intervalId is null now.
+    }
+    
+    document
+      .querySelector("#start")
+      .addEventListener("click", startChangeColor);
+
+    document.querySelector("#stop").addEventListener("click", stopChangeColor);
+  </script>
+</html>

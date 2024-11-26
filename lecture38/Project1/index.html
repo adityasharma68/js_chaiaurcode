@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project on Event</title>
+    <style>
+      body {
+        background-color: rgb(90, 137, 121);
+        text-align: center;
+      }
+
+      #stop {
+        width: 18rem;
+        height: 5rem;
+        font-size: 4rem;
+        background: #b7b6b6;
+      }
+
+      h1 {
+        font-size: 10rem;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>I'm Adi...</h1>
+    <button id="stop">Stop</button>
+    <audio id="myAudio" src="spidy.mp3"></audio> <!-- Add your audio file here -->
+  </body>
+  <script>
+        // setTimeout( function(){ //it method to call API, it gives by browser,
+        //     console.log("Aditya");
+        // },2000)  // in this line we write after ',' in 'numerical value' it help to print the value after these miniSecond.
+
+        // const sayAditya = function () {
+        //   console.log("Aditya");
+        // };
+
+        const aboutMe = function () {
+          document.querySelector("h1").innerHTML = "I am Iron Man";
+        };
+        
+        const aboutMe1 = function () {
+          document.querySelector("h1").innerHTML = "tna na na nanaaaa.....";
+        };
+        const audioPlay = function () {
+          document.querySelector("#myAudio").play(); // Play the audio when text changes
+        };
+
+        const realMe = setTimeout(aboutMe, 2000); // it's use for how much time give to change the variable on the screen
+        const realMe2 = setTimeout(aboutMe1, 5000); // it's use for how much time give to change the variable on the screen
+        const playAudio = setTimeout(audioPlay, 5000); // it's use for how much time give to change the variable on the screen
+
+        document.querySelector("#stop").addEventListener("click", function () {
+          //clearTimeout(realMe); //here we use this function for stop the event bcz sometime we don't want some event like popup and we stop before it execute.
+        //   clearTimeout(realMe2);
+         // console.log("Stop");
+        });
+  </script>
+</html>
