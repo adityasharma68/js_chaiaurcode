@@ -12,7 +12,7 @@ function one() {
   //   console.log(website); //the output is
 
   two(); // there is a intresting fact, if we are not call inner function then it not gives the output.
-}
+} 
 one();
 
 //another example og if else,

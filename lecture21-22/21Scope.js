@@ -6,7 +6,7 @@
 
 var c = 100; // this not working bcz var takes the inner value first.
 
-
+ 
 if (true) {
   let a = 10; // it gives error, bcz it run under only Scope.
   const b = 20; // same as here, it also gives error, bcz it run under only Scope.
