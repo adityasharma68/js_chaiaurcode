@@ -6,7 +6,7 @@ const user = {
     // here we make the welcome messge when user logged in the website.
     // console.log(`${this.username}, welcome to website`); //the meaning of "this keyword" is refer to the current context from 'one scope'i.e>user and here we refer "username" from the current context.
     // console.log(this);
-  },
+  }
 };
 
 // user.welcomeMessage();

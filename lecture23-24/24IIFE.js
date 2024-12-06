@@ -4,7 +4,7 @@
   console.log(`DataBase Connected`);
 })();
 
-//"()","()" > the first paranthesis is used to where we write the defination of function, and the second paranthesis is used for execution
+//"()","()" >> the first paranthesis is used to where we write the defination of function, and the second paranthesis is used for execution
 
 // **Ques: Why we used IIFE expression..?
 // **Ans:this help to immediately excecution but, this is not a good answer for interview point.
