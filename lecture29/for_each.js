@@ -8,6 +8,7 @@ coding.forEach(function (item) {
   // console.log(item); //there we pass the value as "item" word.
 });
 
+
 //the basic callback function is:
 // coding.forEach( (variableName) => {
 //    console.log(variableName);
