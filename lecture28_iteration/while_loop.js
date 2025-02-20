@@ -18,6 +18,7 @@ while (arr < myArray.length) {
 //DO-WHILE LOOP
 // in DO-WHILe loop has special case ther is firstly use do statement the it use While loop. 
 
+
 let score = 1;
 
 do {
