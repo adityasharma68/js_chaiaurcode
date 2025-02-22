@@ -8,7 +8,7 @@
 // console.log(values); //the output is varibale in array but after variable it gives the "undefined" and there is every thing but the output is also undefined.
 
 const myNums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-
+ 
 //#filter operation is used to return the value
 
 // METHOD1 THIS IS THE RIGHT WAY TO CODE
