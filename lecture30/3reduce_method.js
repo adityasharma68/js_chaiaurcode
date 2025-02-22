@@ -6,7 +6,7 @@ const myNums = [1, 2, 3];
 //   return acc + curval;
 // }, 0); 
 
-
+ 
 //METHOD2 This is short or good method.
 // const myTotal = myNums.reduce((acc, curval) => acc + curval, 3);
 
